@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position: z-index</title>
+
+    <style>
+        .kutu {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            color: white;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .birinci {
+            background-color: red;
+            top: 50px;
+            left: 50px;
+            z-index: 120;
+        }
+        .ikinci {
+            background-color: black;
+            top: 70px;
+            left: 70px;
+            z-index: 30;
+        }
+        .ucuncu {
+            background-color: blue;
+            top: 90px;
+            left: 90px;
+            z-index: 50;
+        }
+        /* z-index kullanabilmek için, daha öncesinde elemanı position uygulaman lazım */
+    </style>
+</head>
+<body>
+    <div class="kutu birinci">1</div>
+    <div class="kutu ikinci">2</div>
+    <div class="kutu ucuncu">3</div>
+
+
+
+</body>
+</html>
