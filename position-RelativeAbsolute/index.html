@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: cadetblue;
+            margin-left: 50px;
+            position: relative;
+        }
+        .box2 {
+            width: 50px;
+            height: 50px;
+            background-color: chocolate;
+            position: absolute;
+            left: 100%;
+            top: 100%;
+            transform: translate(-100%,-100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Position -->
+    <!-- 
+    1-Relative
+    2-Absolute
+    3-Fixed
+    4-Sticky
+    5-Z-index -->
+    <div class="box">
+        <div class="box2"></div>
+    </div>
+
+</body>
+</html>
