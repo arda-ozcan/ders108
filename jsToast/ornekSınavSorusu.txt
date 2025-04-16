@@ -1,0 +1,36 @@
+<!-- BS Arasında Değildir? -->
+     <!-- 
+     a)Modal
+     b)Toast
+     c)Constructors
+     d)Badge
+     e)Offcanvas -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+     <!-- Doğru Cevap C -->
